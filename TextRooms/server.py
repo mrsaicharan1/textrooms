@@ -7,7 +7,7 @@ from flask.ext.socketio import SocketIO, emit, join_room
  
 app = Flask(__name__)
 app.debug = True
-app.config['SECRET_KEY'] = 'nuttertools'
+app.config['SECRET_KEY'] = 'Chaaaala secret'
 socketio = SocketIO(app)
  
  
